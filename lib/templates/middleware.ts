@@ -1,4 +1,4 @@
-import { withClerkMiddleware } from "@clerk/nextjs"
+import { authMiddleware } from "@clerk/nextjs"
 import { NextResponse } from "next/server"
 import { i18nMiddleware } from "./lib/i18n-middleware"
 import { securityHeadersMiddleware } from "./lib/security-headers"
@@ -31,7 +31,7 @@ const combinedMiddleware = (request) => {
 }
 
 // Clerk auth middleware
-export default withClerkMiddleware({
+export default authMiddleware({
   publicRoutes: ["/", "/sign-in(.*)", "/sign-up(.*)", "/api/webhooks(.*)", "/docs(.*)", "/(en|es|fr)(.*)"],
   beforeAuth: (req) => combinedMiddleware(req),
 })
