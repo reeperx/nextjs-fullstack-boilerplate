@@ -1,0 +1,32 @@
+{
+    "name": "reeper",
+    "version": "1.0.0",
+    "description": "CLI tool for creating Next.js enterprise applications",
+    "main": "index.js",
+    "bin": {
+      "reeper": "./bin/cli.js"
+    },
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "nextjs",
+      "react",
+      "boilerplate",
+      "enterprise",
+      "cli"
+    ],
+    "author": "Geoffrey Nduati MWangi",
+    "license": "MIT",
+    "dependencies": {
+      "chalk": "^5.3.0",
+      "commander": "^11.1.0",
+      "fs-extra": "^11.2.0",
+      "inquirer": "^9.2.12",
+      "ora": "^7.0.1"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    }
+  }

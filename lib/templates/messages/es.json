@@ -1,0 +1,48 @@
+{
+  "home": {
+    "title": "Plantilla Empresarial de Next.js",
+    "description": "Una plantilla completa para aplicaciones empresariales",
+    "features": {
+      "auth": {
+        "title": "Autenticación",
+        "description": "Autenticación segura de usuarios con Clerk",
+        "content": "Gestione fácilmente la autenticación, autorización y perfiles de usuarios con la integración de Clerk.",
+        "action": "Iniciar Sesión"
+      },
+      "database": {
+        "title": "Base de Datos Convex",
+        "description": "Base de datos en tiempo real con sincronización automática",
+        "content": "Almacene y sincronice sus datos en tiempo real con Convex, una plataforma backend creada para desarrolladores de React.",
+        "action": "Más Información"
+      },
+      "payments": {
+        "title": "Procesamiento de Pagos",
+        "description": "Acepte pagos con PayPal y PayFast",
+        "content": "Integre el procesamiento de pagos con múltiples proveedores para aceptar pagos globalmente.",
+        "action": "Ver Pagos"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Panel de Control",
+    "overview": "Resumen",
+    "profile": "Perfil",
+    "payments": "Pagos",
+    "email": "Correo",
+    "settings": "Configuración",
+    "featureFlags": "Banderas de Características"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior"
+  }
+}
+

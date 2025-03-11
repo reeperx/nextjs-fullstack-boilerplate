@@ -1,8 +1,0 @@
-{
-    "project": "your-project-name",
-    "team": "your-team-name",
-    "functions": {
-      "runtime": "nodejs",
-      "customDomains": []
-    }
-  }

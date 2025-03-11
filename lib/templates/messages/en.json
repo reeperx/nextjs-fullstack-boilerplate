@@ -1,0 +1,48 @@
+{
+  "home": {
+    "title": "Next.js Enterprise Boilerplate",
+    "description": "A comprehensive starter template for enterprise applications",
+    "features": {
+      "auth": {
+        "title": "Authentication",
+        "description": "Secure user authentication with Clerk",
+        "content": "Easily manage user authentication, authorization, and user profiles with Clerk integration.",
+        "action": "Sign In"
+      },
+      "database": {
+        "title": "Convex Database",
+        "description": "Real-time database with automatic syncing",
+        "content": "Store and sync your data in real-time with Convex, a backend platform built for React developers.",
+        "action": "Learn More"
+      },
+      "payments": {
+        "title": "Payment Processing",
+        "description": "Accept payments with PayPal and PayFast",
+        "content": "Integrate payment processing with multiple providers to accept payments globally.",
+        "action": "View Payments"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "overview": "Overview",
+    "profile": "Profile",
+    "payments": "Payments",
+    "email": "Email",
+    "settings": "Settings",
+    "featureFlags": "Feature Flags"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}
+

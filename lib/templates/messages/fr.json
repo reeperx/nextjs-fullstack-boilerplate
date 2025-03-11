@@ -1,0 +1,48 @@
+{
+  "home": {
+    "title": "Modèle d'Entreprise Next.js",
+    "description": "Un modèle complet pour les applications d'entreprise",
+    "features": {
+      "auth": {
+        "title": "Authentification",
+        "description": "Authentification sécurisée des utilisateurs avec Clerk",
+        "content": "Gérez facilement l'authentification, l'autorisation et les profils des utilisateurs avec l'intégration de Clerk.",
+        "action": "Se Connecter"
+      },
+      "database": {
+        "title": "Base de Données Convex",
+        "description": "Base de données en temps réel avec synchronisation automatique",
+        "content": "Stockez et synchronisez vos données en temps réel avec Convex, une plateforme backend conçue pour les développeurs React.",
+        "action": "En Savoir Plus"
+      },
+      "payments": {
+        "title": "Traitement des Paiements",
+        "description": "Acceptez les paiements avec PayPal et PayFast",
+        "content": "Intégrez le traitement des paiements avec plusieurs fournisseurs pour accepter les paiements à l'échelle mondiale.",
+        "action": "Voir les Paiements"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de Bord",
+    "overview": "Aperçu",
+    "profile": "Profil",
+    "payments": "Paiements",
+    "email": "Email",
+    "settings": "Paramètres",
+    "featureFlags": "Drapeaux de Fonctionnalités"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent"
+  }
+}
+
